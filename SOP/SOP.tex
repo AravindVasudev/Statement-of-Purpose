@@ -9,7 +9,6 @@
 \usepackage{fontspec, xcolor}
 \usepackage{sectsty}
 \usepackage{setspace}
-\onehalfspacing
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Title Information
@@ -18,6 +17,12 @@
 \renewcommand{\title}{Personal Statement}
 \newcommand{\name}{Aravind Vasudevan}
 \newcommand{\email}{aravind\_vasudevan@outlook.com}
+
+\renewcommand{\maketitle}{
+  \begin{center}{\color{headingcolor} \huge \scshape \title}\end{center}
+  \begin{center}\vspace{0.2em} {\color{headingcolor} \Large \name\\}
+    {\color{headingcolor} \email}\end{center}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Font Setup
@@ -31,14 +36,14 @@
 \definecolor{headingcolor}{HTML}{4d7ea8}
 \sectionfont{\fontsize{14}{15}\selectfont \color{headingcolor}}
 
+\onehalfspacing
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Title Block
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\begin{center}{\color{headingcolor} \huge \scshape \title}\end{center}
-\begin{center}\vspace{0.2em} {\color{headingcolor} \Large \name\\}
-  {\color{headingcolor} \email}\end{center}
+\maketitle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SOP Body
@@ -50,13 +55,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere, ligula v
 Vestibulum nec varius enim. Sed id nulla at elit tincidunt egestas. Morbi sed ipsum consectetur, accumsan velit sit amet, ultrices erat. Quisque dictum commodo justo, laoreet rhoncus lacus consequat vel. Nulla et leo et tellus vestibulum pellentesque. Proin blandit eu dolor quis euismod. Sed quis laoreet mi. Praesent leo mi, feugiat quis pretium in, molestie at risus. Ut sem ligula, dignissim quis vestibulum id, rutrum in dui. Curabitur consectetur ultricies porta. Etiam venenatis eu sapien vitae finibus. Proin rutrum nulla ac augue euismod, non hendrerit augue pharetra. Vivamus sit amet lorem vel dolor efficitur rutrum quis a mi. Etiam rutrum, diam eu fermentum placerat, sapien dui dapibus turpis, eu dignissim turpis risus ullamcorper purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer quis purus bibendum, varius orci id, porttitor neque. Curabitur molestie condimentum libero, vel scelerisque enim pellentesque sed. Pellentesque eu leo justo. Cras bibendum malesuada tristique. Nam metus erat, sagittis a elit tempus, lobortis mattis purus. Praesent dui tortor, maximus non euismod vel, aliquam ac mauris. Aenean tempus luctus mi quis suscipit. Curabitur luctus gravida nisl, bibendum consequat erat blandit ut. Cras vehicula elit non porttitor tempor. Nulla euismod dui eget magna facilisis elementum. Donec ornare augue urna, ac venenatis ipsum porttitor in. Phasellus semper convallis libero ut ultrices. Sed volutpat condimentum lectus.
 
 \section*{Internship Experience}
-Vestibulum convallis est quis congue iaculis. Praesent varius semper est iaculis eleifend. Donec nec est et odio rhoncus iaculis. Mauris eu rhoncus urna. Nulla facilisi. Maecenas a molestie odio. Mauris nec purus a erat tincidunt bibendum at non tellus. Phasellus porttitor dignissim mi. Vivamus pretium egestas mi vitae suscipit. Maecenas risus diam, maximus sit amet magna et, pellentesque luctus mi. Donec ultrices eros ut felis molestie, ut pulvinar neque placerat. Nullam feugiat scelerisque justo vitae vehicula. Sed malesuada luctus ex ut volutpat. Phasellus in malesuada justo, sed ultricies risus. Morbi interdum tincidunt venenatis.
-
+Vestibulum convallis est quis congue iaculis. Praesent varius semper est iaculis eleifend. Donec nec est et odio rhoncus iaculis. Mauris eu rhoncus urna. Nulla facilisi. Maecenas a molestie odio. Mauris nec purus a erat tincidunt bibendum at non tellus. Phasellus porttitor dignissim mi. Vivamus pretium egestas mi vitae suscipit. Maecenas risus diam, maximus sit amet magna et, pellentesque luctus mi. Donec ultrices eros ut felis molestie, ut pulvinar neque placerat. Nullam feugiat scelerisque justo vitae vehicula. Sed malesuada luctus ex ut volutpat. Phasellus in malesuada justo, sed ultricies risus. Morbi interdum tincidunt venenatis. Donec dignissim tortor eget sapien venenatis, vitae molestie ex rutrum. Vivamus id finibus justo, quis volutpat lacus. Quisque eu ligula sit amet metus mollis dignissim sed id quam. Phasellus lorem nulla, porta non quam a, aliquet interdum dolor. Sed ornare diam est, at efficitur leo volutpat et. Quisque quis mi quam. Vestibulum ut condimentum lorem. Etiam consectetur lectus condimentum mi semper venenatis. Donec sagittis finibus lectus sit amet commodo. Phasellus venenatis sollicitudin dui, eget tincidunt libero accumsan vitae.
 \section*{Project}
 Praesent volutpat euismod est, quis ultricies nunc faucibus sed. Aenean blandit aliquet mauris, nec pulvinar lacus. Praesent vitae pellentesque tellus. Suspendisse nisi est, tincidunt id venenatis in, cursus vitae arcu. Mauris ultricies velit ac ante ornare cursus. In id arcu a nibh congue gravida. Maecenas aliquam semper vestibulum. Sed vel urna laoreet, porttitor odio a, varius ligula. Cras nec vestibulum ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam porta nisi nec rutrum eleifend. Vivamus ut ipsum nunc. Duis gravida erat sed sollicitudin imperdiet. Integer facilisis at metus sed mollis. Sed rhoncus ligula ac nunc ullamcorper lobortis.
 
 \section*{Work Experience}
-Cras tellus lectus, blandit eu justo at, sodales sodales ex. Praesent sodales auctor enim vel lacinia. Maecenas massa risus, fringilla sit amet molestie ut, dapibus sit amet urna. Aliquam erat volutpat. Cras interdum pellentesque justo, nec aliquet purus faucibus iaculis. Cras pretium non metus eu pharetra. Mauris tempor mollis lorem, at vestibulum nisi gravida pretium. Pellentesque sit amet justo vel mauris tristique interdum dignissim eget elit.
+Cras tellus lectus, blandit eu justo at, sodales sodales ex. Praesent sodales auctor enim vel lacinia. Maecenas massa risus, fringilla sit amet molestie ut, dapibus sit amet urna. Aliquam erat volutpat. Cras interdum pellentesque justo, nec aliquet purus faucibus iaculis. Cras pretium non metus eu pharetra. Mauris tempor mollis lorem, at vestibulum nisi gravida pretium. Pellentesque sit amet justo vel mauris tristique interdum dignissim eget elit. Praesent ac tincidunt risus. Mauris lobortis laoreet purus, eget tempus ipsum tincidunt at. Etiam vel magna eros. Vestibulum et pulvinar enim, quis aliquam est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tristique tortor vitae dui pulvinar, sed varius neque vestibulum. Nunc vitae nisl suscipit, cursus ex a, cursus elit. Fusce ut hendrerit erat. 
 
 \section*{Conclusion}
 Curabitur ultrices ligula sed eros congue, sit amet vestibulum augue pellentesque. Sed efficitur, est in semper condimentum, massa felis tempus felis, a faucibus magna nibh a tortor. Integer neque eros, feugiat cursus varius quis, sagittis nec est. Nullam sit amet velit posuere metus blandit finibus. Praesent faucibus, dolor non semper volutpat, lacus orci vehicula mi, sed tincidunt risus enim a lectus. Aliquam dictum lorem sem, sed vestibulum purus consectetur at. Nunc sollicitudin diam nec urna auctor finibus.

@@ -6,23 +6,29 @@
 
 \documentclass[12pt, letterpaper]{article}
 \usepackage[letterpaper, margin=0.6in]{geometry}
-\usepackage{fontspec, xcolor}
-\usepackage{sectsty}
-\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontspec, xcolor, sectsty, setspace}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Title Information
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\renewcommand{\title}{Personal Statement}
-\newcommand{\name}{Aravind Vasudevan}
-\newcommand{\email}{aravind\_vasudevan@outlook.com}
+\title{Personal Statement}
+\author{\href{https://aravindvasudev.github.io/}{Aravind Vasudevan}}
+\newcommand{\email}{\href{mailto:aravind_vasudevan@outlook.com}{aravind\_vasudevan@outlook.com}}
 
+\makeatletter
 \renewcommand{\maketitle}{
-  \begin{center}{\color{headingcolor} \huge \scshape \title}\end{center}
-  \begin{center}\vspace{0.2em} {\color{headingcolor} \Large \name\\}
-    {\color{headingcolor} \email}\end{center}
+  \begin{center}
+    {\color{headingcolor} \Huge \scshape \@title}
+    \vspace{0.5em}
+    \color[HTML]{2e4b64}{\rule{\linewidth}{0.5mm}}
+    \par
+    {\normalsize \color{headingcolor} \@author \hfill \email}
+    \vspace{0.2em}
+  \end{center}
 }
+\makeatother
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Font Setup

@@ -1,64 +1,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Statement of Purpose Template
+%% Statement of Purpose Example 2
 %% Author – Aravind Vasudevan
 %% Email  – aravind_vasudevan@outlook.com
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[12pt, letterpaper]{article}
-\usepackage[letterpaper, margin=0.6in]{geometry}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fontspec, xcolor, sectsty, setspace}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Title Information
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[color, font]{sop}
 
 \title{Personal Statement}
-\author{\href{https://aravindvasudev.github.io/}{Aravind Vasudevan}}
-\newcommand{\email}{\href{mailto:aravind_vasudevan@outlook.com}{aravind\_vasudevan@outlook.com}}
-
-\makeatletter
-\renewcommand{\maketitle}{
-  \begin{center}
-    {\color{headingcolor} \Huge \scshape \@title}
-    \vspace{0.5em}
-    \color[HTML]{2e4b64}{\rule{\linewidth}{0.5mm}}
-    \par
-    {\normalsize \color{headingcolor} \@author \hfill \email}
-    \vspace{0.2em}
-  \end{center}
-}
-\makeatother
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Font Setup
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-\setromanfont[Ligatures={Common}]{Adobe Caslon Pro}
-\setmonofont[Scale=0.8]{Monaco}
-\setsansfont[Scale=0.9]{Optima}
-
-\definecolor{headingcolor}{HTML}{4d7ea8}
-\sectionfont{\fontsize{14}{15}\selectfont \color{headingcolor}}
-
-\setlength\parindent{0pt}
-\onehalfspacing
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% PDF Metadata
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\makeatletter
-\hypersetup {
-  pdfinfo={
-    Author={\@author},
-    Title={\@title},
-    Keywords={\@author;\@title},
-    Subject={\@title --- \@author}
-  }
-}
-\makeatother
+\author{https://aravindvasudev.github.io/}{Aravind Vasudevan}
+\email{aravind\_vasudevan@outlook.com}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Title Block

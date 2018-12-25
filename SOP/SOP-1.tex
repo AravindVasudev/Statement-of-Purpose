@@ -1,54 +1,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Statement of Purpose Template
+%% Statement of Purpose Example 1
 %% Author – Aravind Vasudevan
 %% Email  – aravind_vasudevan@outlook.com
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[12pt, a4paper]{article}
-\usepackage[a4paper, margin=0.8in]{geometry}
-\usepackage[hidelinks]{hyperref}
-\usepackage{setspace}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Title Information
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{sop}
 
 \title{Personal Statement}
-\author{\href{https://aravindvasudev.github.io/}{Aravind Vasudevan}}
-\newcommand{\email}{\href{mailto:aravind_vasudevan@outlook.com}{aravind\_vasudevan@outlook.com}}
+\author{https://aravindvasudev.github.io/}{Aravind Vasudevan}
+\email{aravind\_vasudevan@outlook.com}
 
-\makeatletter
-\renewcommand{\maketitle}{
-  \begin{center}
-    {\Huge \scshape \@title}
-    \rule{\linewidth}{0.5mm}
-    {\normalsize \@author \hfill \email}
-  \end{center}
-}
-\makeatother
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Font Setup
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\setlength\parskip{\baselineskip}
-\setlength\parindent{0pt}
 \doublespace
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% PDF Metadata
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\makeatletter
-\hypersetup {
-  pdfinfo={
-    Author={\@author},
-    Title={\@title},
-    Keywords={\@author;\@title},
-    Subject={\@title --- \@author}
-  }
-}
-\makeatother
+\setlength\parskip{\baselineskip}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Title Block

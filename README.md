@@ -1,15 +1,16 @@
 # Statement of Purpose Template
-My template for Graduate School SOP.
+My templates for Graduate School SOP.
 
 ## Example
-![Example Page 1](./examples/page1.png)
-![Example Page 2](./examples/page2.png)
+![Example Page 1](./examples/example.png)
 
 ## Compiling
 
 ```
-$ xelatex SOP.tex
+$ xelatex SOP-1.tex
+(or)
+$ xelatex SOP-2.tex
 ```
 
 ## License
-Built under [MIT](../LICENSE) license.
+Built under [MIT](./LICENSE) license.
